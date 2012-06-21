@@ -7,16 +7,11 @@ $mid-bg1: #ababab;
 $mid-bg1-highlight: #a9a9a9;
 $visited-text: black;
 
-body{
+.bodyForem{
   font: 12pt Helvetica;
   color: $default-text;
   margin-left: 20%;
   margin-right: 20%;
-  background: #ddd;
-}
-
-a {
-  color: #0074FF;
 }
 
 #forums, .topics {
@@ -94,6 +89,7 @@ a {
   }
 }
 
+/*
 form {
   label {
     display: block;
@@ -107,7 +103,7 @@ form {
     padding: .5em;
     font-size: 110%;
   }
-}
+}*/
 
 #posts{
   // http://www.quirksmode.org/css/clearing.html
